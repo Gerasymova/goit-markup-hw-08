@@ -1,0 +1,33 @@
+body * {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $text;
+  margin: 0;
+}
+
+.section {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 60px;
+
+  @include for-size(tablet) {
+    padding-bottom: 94px;
+  }
+
+  @include for-size(desktop) {
+    padding-bottom: 94px;
+  }
+}
+
+.list,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
